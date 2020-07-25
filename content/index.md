@@ -9,7 +9,7 @@ It's an experiment!
 
 [Neontribe](https://www.neontribe.co.uk) were inspired by [How to teach programming (and other things)?](https://www.youtube.com/watch?v=g1ib43q3uXQ) by [Felienne Hermans](https://www.felienne.com/). 
 
-At its core is the idea that the paradigm we use to teach programming is flawed. One of the most obvious ommissions is the ability to read code, both phoneticlly and analytically.
+At its core is the idea that the paradigm we use to teach programming is flawed. One of the most obvious ommissions is the ability to read code, both phoneticlly and analytically. Read [Felienne's blog post](https://www.felienne.com/archives/6472) for more information about the theory behind it.
 
 As professional developers who read code every day, we aren't suitably equiping ourselves with these building blocks.
 
@@ -22,7 +22,7 @@ We tried them, we loved them, we shared them with other developers
 
 ## How do I get started?
 
-You can find the exercises in our [github repo: Resources](https://github.com/codereadingclubs/resources).
+You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 
 You can run your club in whatever way you want, but we recommend to meet for 1 hour 15 mins every other week.
 
@@ -40,4 +40,6 @@ We're hoping to publish a couple of starter kits soon.
 
 ...so the resources are a little rough around the edges!
 
-Please contact katja@neontribe.co.uk with questions and suggestions.
+## Get in touch!
+
+If you decide to start a club, please get in touch. We'd love to hear about it, or even sit in on a session with you. Please contact katja@neontribe.co.uk if you want to get involved, or have any suggestions.
