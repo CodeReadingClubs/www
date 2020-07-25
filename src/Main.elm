@@ -32,12 +32,12 @@ manifest =
     , categories = [ Pages.Manifest.Category.education ]
     , displayMode = Manifest.Standalone
     , orientation = Manifest.Portrait
-    , description = "elm-pages-starter - A statically typed site generator."
+    , description = "Information about getting started with code reading clubs at work."
     , iarcRatingId = Nothing
-    , name = "elm-pages-starter"
+    , name = "Code Reading Clubs"
     , themeColor = Just Color.white
     , startUrl = pages.index
-    , shortName = Just "elm-pages-starter"
+    , shortName = Just "Code Reading Clubs"
     , sourceIcon = images.iconPng
     }
 
@@ -186,7 +186,7 @@ pageView model siteMetadata page viewForPage =
             }
 
         Metadata.BlogIndex ->
-            { title = "elm-pages blog"
+            { title = "Code Reading Clubs blog"
             , body =
                 [ Element.column [ Element.padding 20, Element.centerX ] [ Index.view siteMetadata ]
                 ]
@@ -217,10 +217,10 @@ head metadata =
                 Metadata.Page meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Code Reading Clubs"
                         , image =
                             { url = images.iconPng
-                            , alt = "elm-pages logo"
+                            , alt = "Code Reading Clubs logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
@@ -233,7 +233,7 @@ head metadata =
                 Metadata.Article meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages starter"
+                        , siteName = "Code Reading Clubs"
                         , image =
                             { url = meta.image
                             , alt = meta.description
@@ -270,16 +270,16 @@ head metadata =
                     in
                     Seo.summary
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Code Reading Clubs"
                         , image =
                             { url = meta.avatar
-                            , alt = meta.name ++ "'s elm-pages articles."
+                            , alt = meta.name ++ "'s articles."
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = meta.bio
                         , locale = Nothing
-                        , title = meta.name ++ "'s elm-pages articles."
+                        , title = meta.name ++ "'s articles."
                         }
                         |> Seo.profile
                             { firstName = firstName
@@ -290,16 +290,16 @@ head metadata =
                 Metadata.BlogIndex ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages"
+                        , siteName = "Code Reading Clubs"
                         , image =
                             { url = images.iconPng
-                            , alt = "elm-pages logo"
+                            , alt = "Code Reading Clubs logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = siteTagline
                         , locale = Nothing
-                        , title = "elm-pages blog"
+                        , title = "Code Reading Clubs blog"
                         }
                         |> Seo.website
            )
@@ -307,9 +307,9 @@ head metadata =
 
 canonicalSiteUrl : String
 canonicalSiteUrl =
-    "https://elm-pages-starter.netlify.com"
+    "https://codereadingclubs.github.io/www"
 
 
 siteTagline : String
 siteTagline =
-    "Starter blog for elm-pages"
+    "Getting started with code reading clubs"
