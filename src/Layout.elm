@@ -76,7 +76,7 @@ header currentPath =
                         ]
                 }
             , Element.row [ Element.spacing 15 ]
-                [ highlightableLink currentPath Pages.pages.blog.directory "Blog"
+                [ highlightableLink currentPath Pages.pages.blog.directory "Our code reading adventures"
                 , githubRepoLink
                 ]
             ]

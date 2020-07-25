@@ -39,11 +39,11 @@ generate :
     -> String
 generate { siteTagline, siteUrl } siteMetadata =
     Rss.generate
-        { title = "elm-pages Blog"
+        { title = "Our code reading club adventures"
         , description = siteTagline
-        , url = "https://elm-pages.com/blog"
+        , url = "https://codereadingclubs.guithub.io/www/blog"
         , lastBuildTime = Pages.builtAt
-        , generator = Just "elm-pages"
+        , generator = Just "Code Reading Clubs"
         , items = siteMetadata |> List.filterMap metadataToRssItem
         , siteUrl = siteUrl
         }
