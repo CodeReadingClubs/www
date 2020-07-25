@@ -4,7 +4,7 @@
 ## Setup Instructions
 
 - Install: `npm install`
-- Run dev server: `npm start` # uses `elm-pages develop`
+- Run dev server: `npm start` (uses `elm-pages develop`)
 
 
 ## How this stuff works

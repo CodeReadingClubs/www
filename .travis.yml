@@ -1,0 +1,19 @@
+language: elm
+elm:
+  - latest-0.19.1
+elm-test: 0.19.1
+elm-format: 0.8.2
+script:
+  - npm test
+  - npm run build
+deploy:
+  github_token: "$GITHUB_TOKEN"
+  keep_history: true
+  local_dir: dist
+  provider: pages
+  skip_cleanup: true
+  on:
+    tags: true
+env:
+  global:
+    secure: Ri8nNY2uOyeTV2SsZe/44dCrvFwu6vbELdBRHo6N39tK0zB+TXcHGxyK8f7xVm/PI16aWUBYwwaqZIhLTBIbLY/N7JChU7JdXebEXTz1WVUQeI85if0KuRQw7H5RX03/ab4m95pj6JhPphcbLZ3f7vGN7IygMM65q1G/27ymqsbxwd8gy3UJunMlerQptptjOlSyUXZT/BK3ozkblnDMnSltbpB6G7XcSWB/yPse5tQjZt8GBGSOhaCVxUy5+RRxWyfo0A/bPU4V8XpeWazaqRXWxLkdHpgM+GMT2MUNxFj3B1oduPhScPChXN2nMpbqk9KewAr8cIjx122KR+ChDiViJ2W3qO4wGdtxb9xMvcPhAL5ILFSBjXiXQ79X7wQ5S4VKoDNg1kkL+seiHmx3E4dNu5aTIbIjigmJTZC33tKcJ5xcY3IMn3jj++PCRYJh9X/ICTl25lrYrMj7UDmmBvecqT5xeIkUFd0lXlWw7ibpiahXeHodObWx2lcvkD3Ve7Tk7y7K8Er+a2jJ3ORjGf05U1xQuyxsrBEpcA/oGnpB8Ud2sCkeKkX93XMAGvdQAHIpWVbZedfqDIFMGbZUXcGhVGPWLhUoICuJ/6pjLcMc24DOWWbl0Yyqd/0lCY0t5Vx9DK+C93TzF0wqzDHBtt59VMzlocZJWxfn7GxkSUs=
