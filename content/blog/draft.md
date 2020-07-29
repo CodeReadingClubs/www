@@ -1,13 +1,13 @@
 ---
 {
   "type": "blog",
-  "author": "Dillon Kearns",
+  "author": "Katja Mordaunt",
   "title": "A Draft Blog Post",
-  "description": "I'm not quite ready to share this post with the world",
-  "image": "images/article-covers/mountains.jpg",
+  "description": "This post is still in draft",
+  "image": "images/article-covers/neontribe.png",
   "draft": true,
-  "published": "2019-09-21",
+  "published": "2020-07-25",
 }
 ---
 
-This blog post is a draft! Check out `Index.elm` to see how it's being skipped in the `/blog/` listing page.
+This blog post is a draft!

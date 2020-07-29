@@ -1,6 +1,5 @@
 module Layout exposing (view)
 
-import DocumentSvg
 import Element exposing (Element)
 import Element.Background
 import Element.Border
@@ -50,37 +49,35 @@ header : PagePath Pages.PathKey -> Element msg
 header currentPath =
     Element.column [ Element.width Element.fill ]
         [ Element.el
-            [ Element.height (Element.px 4)
+            [ Element.height (Element.px 10)
             , Element.width Element.fill
             , Element.Background.gradient
                 { angle = 0.2
                 , steps =
-                    [ Element.rgb255 0 242 96
-                    , Element.rgb255 5 117 230
+                    [ Element.rgb255 189 195 199
+                    , Element.rgb255 17 24 31
                     ]
                 }
             ]
             Element.none
         , Element.row
-            [ Element.paddingXY 25 4
+            [ Element.paddingXY 25 8
             , Element.spaceEvenly
             , Element.width Element.fill
             , Element.Region.navigation
             , Element.Border.widthEach { bottom = 1, left = 0, right = 0, top = 0 }
-            , Element.Border.color (Element.rgba255 40 80 40 0.4)
+            , Element.Border.color (Element.rgb255 17 24 31)
             ]
             [ Element.link []
                 { url = "/"
                 , label =
                     Element.row [ Font.size 30, Element.spacing 16 ]
-                        [ DocumentSvg.view
-                        , Element.text "elm-pages-starter"
+                        [ Element.text "Code Reading Clubs"
                         ]
                 }
             , Element.row [ Element.spacing 15 ]
-                [ elmDocsLink
+                [ highlightableLink currentPath Pages.pages.blog.directory "Our code reading adventures"
                 , githubRepoLink
-                , highlightableLink currentPath Pages.pages.blog.directory "Blog"
                 ]
             ]
         ]
@@ -113,24 +110,11 @@ highlightableLink currentPath linkDirectory displayName =
 githubRepoLink : Element msg
 githubRepoLink =
     Element.newTabLink []
-        { url = "https://github.com/dillonkearns/elm-pages"
+        { url = "https://github.com/codereadingclubs/resources"
         , label =
             Element.image
                 [ Element.width (Element.px 22)
                 , Font.color Palette.color.primary
                 ]
-                { src = ImagePath.toString Pages.images.github, description = "Github repo" }
-        }
-
-
-elmDocsLink : Element msg
-elmDocsLink =
-    Element.newTabLink []
-        { url = "https://package.elm-lang.org/packages/dillonkearns/elm-pages/latest/"
-        , label =
-            Element.image
-                [ Element.width (Element.px 22)
-                , Font.color Palette.color.primary
-                ]
-                { src = ImagePath.toString Pages.images.elmLogo, description = "Elm Package Docs" }
+                { src = ImagePath.toString Pages.images.github, description = "Resources github repo" }
         }

@@ -1,4 +1,4 @@
 ---
-title: elm-pages blog
+title: Our code reading adventures 
 type: blog-index
 ---
