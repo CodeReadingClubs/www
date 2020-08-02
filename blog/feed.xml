@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Our code reading club adventures</title>
+<description>Getting started with code reading clubs</description>
+<link>https://codereadingclubs.guithub.io/www/blog</link>
+<lastBuildDate>Sun, 02 Aug 2020 11:54:11 +0000</lastBuildDate>
+<generator>Code Reading Clubs</generator>
+<item>
+<title>Reflections</title>
+<description>At the start of each session, we reflect on when our new skills have come in handy over the last few weeks.</description>
+<link>https://codereadingclubs.github.io/www/blog/reflections</link>
+<guid>https://codereadingclubs.github.io/www/blog/reflections</guid>
+<pubDate>Sat, 25 Jul 2020 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
