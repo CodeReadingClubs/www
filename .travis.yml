@@ -4,8 +4,8 @@ elm:
 elm-test: 0.19.1
 elm-format: 0.8.2
 script:
-- npm test
 - npm run build
+- npm test
 deploy:
   github_token: "$GITHUB_TOKEN"
   keep_history: true
