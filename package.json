@@ -5,7 +5,8 @@
   "scripts": {
     "start": "elm-pages develop",
     "serve": "npm run build && http-server ./dist -a localhost -p 3000 -c-1",
-    "build": "elm-pages build"
+    "build": "elm-pages build",
+    "test": "elm-test"
   },
   "author": "@CodeReadingClubs",
   "license": "BSD-3",
