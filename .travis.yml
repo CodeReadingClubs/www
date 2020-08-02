@@ -1,11 +1,11 @@
 language: elm
 elm:
-  - latest-0.19.1
+- latest-0.19.1
 elm-test: 0.19.1
 elm-format: 0.8.2
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run build
 deploy:
   github_token: "$GITHUB_TOKEN"
   keep_history: true
@@ -16,4 +16,4 @@ deploy:
     tags: true
 env:
   global:
-    secure: Ri8nNY2uOyeTV2SsZe/44dCrvFwu6vbELdBRHo6N39tK0zB+TXcHGxyK8f7xVm/PI16aWUBYwwaqZIhLTBIbLY/N7JChU7JdXebEXTz1WVUQeI85if0KuRQw7H5RX03/ab4m95pj6JhPphcbLZ3f7vGN7IygMM65q1G/27ymqsbxwd8gy3UJunMlerQptptjOlSyUXZT/BK3ozkblnDMnSltbpB6G7XcSWB/yPse5tQjZt8GBGSOhaCVxUy5+RRxWyfo0A/bPU4V8XpeWazaqRXWxLkdHpgM+GMT2MUNxFj3B1oduPhScPChXN2nMpbqk9KewAr8cIjx122KR+ChDiViJ2W3qO4wGdtxb9xMvcPhAL5ILFSBjXiXQ79X7wQ5S4VKoDNg1kkL+seiHmx3E4dNu5aTIbIjigmJTZC33tKcJ5xcY3IMn3jj++PCRYJh9X/ICTl25lrYrMj7UDmmBvecqT5xeIkUFd0lXlWw7ibpiahXeHodObWx2lcvkD3Ve7Tk7y7K8Er+a2jJ3ORjGf05U1xQuyxsrBEpcA/oGnpB8Ud2sCkeKkX93XMAGvdQAHIpWVbZedfqDIFMGbZUXcGhVGPWLhUoICuJ/6pjLcMc24DOWWbl0Yyqd/0lCY0t5Vx9DK+C93TzF0wqzDHBtt59VMzlocZJWxfn7GxkSUs=
+    secure: G8UahyiG8yU4KtGVW3BTX+4ShIo4i85NXnWI5hA1NCHkGtjYtO3vz3JCgVgnlF441ADnRDD804u9FuJStLkOiAtf/Wc4V8HWZoU0sdNfQlwSIarkDV6lKKQDIBCVetbFzAb4qpySmU5knG/P19KDqh/RhhtnAjbMEdvb64xeny92bQ2V/44lbktyHHRoK+nEWbsZc7H7uBjLKmSHfM6oRU66Bn1Vofw6/ZTBm0Aw+svX4p0hnex8/Ueqj5C453IR9bNGL37ixvFee3tHkAkWOjQIrVY4gKRXbJjAhodBqCqoWpc6mcaPJlUfFcJGBkomTjod3l1uenPk6x75+HIkbzEt1dq/BrxyTa+oWaPuAHomD+/yMJN/lmGznCdMMOGowdu/x1lYLyslE10uA1yJ+kLT7L1ziDG9kvHL3BPzbdoOFos+FWqV7vJ2LFwygF7DYz7SXxX9o2tkSyzBoioNx9JWddV7Nzsk0VpjMSeewuKoKQe7JSaKO7uxJaxZU4HBkDpV+3yIq5xN6phAAtGxr2Euae26IfaTBa8RX0pbP+Cvu/8qD7z5E6xBXWwzy3LfSml62EWVhpmli8XmnYGXHI8Ok2aPMw7dz+aZu/EYJPyvkdbidBAP+lFCFi79TDJAsZ9EES5gOGvWQt38oGRaEV9vaw74deBzNGWFxqzjhtE=
