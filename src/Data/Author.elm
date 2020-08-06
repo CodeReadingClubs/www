@@ -21,6 +21,10 @@ all =
       , avatar = Pages.images.author.katja
       , bio = "Lead developer at Neontribe & elm enthusiast."
       }
+    , { name = "Felienne Hermans"
+      , avatar = Pages.images.author.felienne
+      , bio = ""
+      }
     ]
 
 
