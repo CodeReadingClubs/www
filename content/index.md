@@ -7,11 +7,11 @@ type: page
 
 It's an experiment!
 
-[Neontribe](https://www.neontribe.co.uk) were inspired by [How to teach programming (and other things)?](https://www.youtube.com/watch?v=g1ib43q3uXQ) by [Felienne Hermans](https://www.felienne.com/). 
+[Neontribe](https://www.neontribe.co.uk) were inspired by [How to teach programming (and other things)?](https://www.youtube.com/watch?v=g1ib43q3uXQ) by [Felienne Hermans](https://www.felienne.com/).
 
-At its core is the idea that the paradigm we use to teach programming is flawed. One of the most obvious ommissions is the ability to read code, both phoneticlly and analytically. Read [Felienne's blog post](https://www.felienne.com/archives/6472) for more information about the theory behind it.
+At its core is the idea that the paradigm we use to teach programming is flawed. One of the most obvious omissions is the ability to read code, both phonetically and analytically. Read [Felienne's blog post](https://www.felienne.com/archives/6472) for more information about the theory behind it.
 
-As professional developers who read code every day, we aren't suitably equiping ourselves with these building blocks.
+As professional developers who read code every day, we aren't suitably equipping ourselves with these building blocks.
 
 So Felienne developed some exercises for us to try, based on her research and teaching exercises she uses with students.
 
@@ -32,7 +32,7 @@ Participants should have had some exposure to code, but your group might include
 
 ## What code should I use?
 
-We have seen different types of clubs, you might be interested in code form your own code base, maybe in one language, or select open source code in a variety of languages. In our experience, it does not matter all that much what code you pick. The key benefit is an increased ability to understand code when reading and a more sympathetic style of writing code to be read by others, which we think you get more form the process than form the code. Some people though join a club to also learn a new language as a byproduct, when you have a few of those in your group, you might want to sitck to one language.
+We have seen different types of clubs: you might be interested in code form your own code base, maybe in one language, or select open source code in a variety of languages. In our experience, it does not matter all that much what code you pick. The key benefit is an increased ability to understand code when reading and a more sympathetic style of writing code to be read by others, which we think you get more from the process than form the code. Some people though join a club to also learn a new language as a byproduct. When you have a few of those in your group, you might want to stick to one language.
 
 We're hoping to publish a couple of starter kits soon.
 
