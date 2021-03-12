@@ -24,6 +24,8 @@ We tried them, we loved them, we shared them with other developers
 
 You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 
+You can use our [pdf from github code tool](https://pdf-maker.netlify.app/) to download a pdf for your club.
+
 You can run your club in whatever way you want, but we recommend to meet for 1 hour 15 mins every other week.
 
 ## Who can participate?
