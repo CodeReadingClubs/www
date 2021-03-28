@@ -22,6 +22,15 @@ We tried them, we loved them, we shared them with other developers
 
 ## How do I get started?
 
+### Join us for a public club! Free. Online. International.
+Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? You're in luck, we're running a club and you're invited!
+
+- Duration: 2 hours
+- When: 14 April 2021 (1800 - 2000 BST)
+- Where: online (sign up to receive an invite)
+
+#### [Sign up](https://forms.gle/MwyVCSZzdLVSPfcS8)
+
 You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 
 You can use our [pdf from github code tool](https://pdf-maker.netlify.app/) to download a pdf for your club.
@@ -44,4 +53,4 @@ We're hoping to publish a couple of starter kits soon.
 
 ## Get in touch!
 
-If you decide to start a club, please get in touch. We'd love to hear about it, or even sit in on a session with you. Please contact katja@neontribe.co.uk if you want to get involved, or have any suggestions.
+If you decide to start a club, please get in touch. We'd love to hear about it, or even sit in on a session with you. Please contact [hello@code-reading.org](mailto:hello@code-reading.org) if you want to get involved, or have any suggestions.
