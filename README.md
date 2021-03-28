@@ -1,6 +1,6 @@
 # Code Reading Clubs information site
 
-[Published site](https://codereadingclubs.github.io/www/)
+[Published site](https://code-reading.org)
 
 ## Adding or editing content
 
