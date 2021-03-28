@@ -1,5 +1,70 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap");
 
+:root {
+  --yellow: #f4d35e;
+  --orange: #ee964b;
+  --blue: #28afb0;
+  --white: #e4dfda;
+  --black: #1f271b;
+}
+
 .avatar img {
   border-radius: 50%;
+}
+
+div.bg-255-255-255-0 {
+  background-color: #eee;
+}
+
+main {
+  background-color: var(--white);
+}
+
+a {
+  color: var(--black);
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+a:hover {
+  background-color: var(--orange);
+  border-top: 4px solid var(--orange);
+  border-bottom: 4px solid var(--orange);
+}
+
+h2 {
+  border-left: solid 20px var(--blue);
+  padding-left: 10px;
+}
+
+body h3,
+body h3+p,
+body h3+p+ul,
+body h3+p+ul+h4 {
+  background-color: var(--yellow);
+  margin: 0;
+  padding: 15px 20px;
+}
+
+body h3+p+ul {
+  font-weight: bold;
+  list-style: none;
+  padding: 0 20px 20px 20px;
+}
+
+body h3+p+ul+h4 {
+  padding-bottom: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+body h3+p+ul+h4 a {
+  background: var(--orange);
+  border: none;
+  padding: 10px 20px;
+}
+
+body h3+p+ul+h4 a:hover {
+  border: 4px dashed var(--blue);
 }
