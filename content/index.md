@@ -21,11 +21,14 @@ We tried them, we loved them, we shared them with other developers
 ## How do I get started?
 
 ### Join us for a public club! Free. Online. International.
-Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? You're in luck, we're running a club and you're invited!
+Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? You're in luck, we're running a club and you're invited! 
 
-- Duration: 2 hours
-- When: 14 April 2021 (1800 - 2000 BST)
+
+- Duration: 2 hours (1800 - 2000 BST)
+- When: 14 (fully booked) & 28 April 2021
+- NOTE The session on 28 April is a repeat of 14 April
 - Where: online (sign up to receive an invite)
+
 
 #### [Sign up](https://forms.gle/MwyVCSZzdLVSPfcS8)
 
