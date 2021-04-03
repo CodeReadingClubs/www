@@ -33,6 +33,12 @@ a:hover {
   border-bottom: 4px solid var(--orange);
 }
 
+nav a.s:focus {
+  background-color: var(--yellow);
+  border-top: 4px solid var(--yellow);
+  border-bottom: 4px solid var(--yellow);
+}
+
 h2 {
   border-left: solid 20px var(--blue);
   padding-left: 10px;

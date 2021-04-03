@@ -60,22 +60,26 @@ header currentPath =
                 }
             ]
             Element.none
-        , Element.row
-            [ Element.paddingXY 25 8
+        , Element.wrappedRow
+            [ Element.paddingXY 25 0
             , Element.spaceEvenly
             , Element.width Element.fill
             , Element.Region.navigation
             , Element.Border.widthEach { bottom = 1, left = 0, right = 0, top = 0 }
             , Element.Border.color (Element.rgb255 17 24 31)
             ]
-            [ Element.link []
+            [ Element.link
+                [ Element.paddingXY 0 4
+                , Element.Region.heading 1
+                , Element.Border.widthXY 0 4
+                , Element.Border.color (Element.rgba 0 0 0 0)
+                ]
                 { url = "/"
                 , label =
-                    Element.row [ Font.size 30, Element.spacing 16 ]
-                        [ Element.text "Code Reading Clubs"
-                        ]
+                    Element.el [ Font.size 30, Element.spacing 16 ]
+                        (Element.text "Code Reading Clubs")
                 }
-            , Element.row [ Element.spacing 15 ]
+            , Element.row [ Element.paddingXY 0 8, Element.spacing 15 ]
                 [ highlightableLink currentPath Pages.pages.blog.directory "Our code reading adventures"
                 , githubRepoLink
                 ]
