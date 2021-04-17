@@ -25,12 +25,11 @@ Want to start a club, but not sure how it works? Don't have enough people in you
 
 
 - Duration: 2 hours (1800 - 2000 BST)
-- When: 14 (fully booked) & 28 April 2021
-- NOTE The session on 28 April is a repeat of 14 April
+- When: 28 April 2021
 - Where: online (sign up to receive an invite)
 
 
-#### [Sign up](https://forms.gle/MwyVCSZzdLVSPfcS8)
+#### [Sign up](https://docs.google.com/forms/d/e/1FAIpQLSeGLVsdHgIDfAOGILdvA6VtM3mPtggjD7ZZKHSbWsOwe6Pq0Q/viewform?usp=sf_link)
 
 You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 
