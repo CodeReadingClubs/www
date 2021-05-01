@@ -33,6 +33,11 @@ a:hover {
   border-bottom: 4px solid var(--orange);
 }
 
+footer a {
+  border-bottom: 2px solid !important;
+  border-top: none !important;
+}
+
 nav a.s:focus {
   background-color: var(--yellow);
   border-top: 4px solid var(--yellow);

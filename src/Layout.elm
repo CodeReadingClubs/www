@@ -35,6 +35,7 @@ view document page =
                 , Element.centerX
                 ]
                 document.body
+            , footer
             ]
             |> Element.layout
                 [ Element.width Element.fill
@@ -84,6 +85,20 @@ header currentPath =
                 , githubRepoLink
                 ]
             ]
+        ]
+
+
+footer : Element msg
+footer =
+    Element.wrappedRow
+        [ Element.Region.footer
+        , Element.centerX
+        , Element.spacing 25
+        , Element.padding 40
+        ]
+        [ Element.text "We strive to be inclusive and value all people equally."
+        , Element.link [] { label = Element.text "Privacy Policy", url = "/privacy" }
+        , Element.link [] { label = Element.text "Code of conduct", url = "/conduct" }
         ]
 
 
