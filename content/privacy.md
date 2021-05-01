@@ -5,6 +5,8 @@ type: page
 
 # Privacy policy
 
+## Who we are
+
 ## Your personal information
 Your personal information belongs to you. Any personal information we get from you will only be used internally and never shared with third parties.
 
@@ -12,7 +14,7 @@ Your personal information belongs to you. Any personal information we get from y
 
 ### Sharing tools
 
-## Jamboard, Miro, Zoom ...
+#### Jamboard, Miro, Zoom ...
 
 ### Recording
 
