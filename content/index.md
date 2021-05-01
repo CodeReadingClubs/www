@@ -21,15 +21,11 @@ We tried them, we loved them, we shared them with other developers
 ## How do I get started?
 
 ### Join us for a public club! Free. Online. International.
-Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? You're in luck, we're running a club and you're invited! 
+Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? We sometimes run sessions about how to start a club or invite new people to join our public clubs.
 
+- We are planning our next session for May 2021.
 
-- Duration: 1 hour 30 mins (1800 - 1930 BST)
-- When: 28 April 2021
-- Where: online (sign up to receive an invite)
-
-
-#### [Sign up](https://docs.google.com/forms/d/e/1FAIpQLSeGLVsdHgIDfAOGILdvA6VtM3mPtggjD7ZZKHSbWsOwe6Pq0Q/viewform?usp=sf_link)
+#### [Get in touch](mailto:hello@code-reading.org) if you are interested in finding out more.
 
 You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 
