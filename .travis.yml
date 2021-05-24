@@ -7,7 +7,7 @@ script:
 - npm run build
 - npm test
 deploy:
-  github_token: "$GITHUB_TOKEN"
+  token: "$GITHUB_TOKEN"
   keep_history: true
   local_dir: dist
   provider: pages
