@@ -14,5 +14,6 @@ deploy:
   skip_cleanup: true
   on:
     branch: main
+sudo: required
 addons:
   chrome: stable
