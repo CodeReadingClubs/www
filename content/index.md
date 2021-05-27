@@ -52,3 +52,4 @@ If you decide to start a club, please get in touch. We'd love to hear about it, 
 The initial inspiration for the clubs was [How to teach programming (and other things)?](https://www.youtube.com/watch?v=g1ib43q3uXQ) by [Felienne Hermans](https://www.felienne.com/).
 
 We're also really excited about Felienne's new book: [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain) which can be pre-ordered now!
+
