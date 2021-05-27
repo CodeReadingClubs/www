@@ -5,7 +5,7 @@ type: page
 
 # Code of Conduct
 
-We've found that code reading clubs work best when you involve people of different backgrounds and levels of experience. People read code differently and we can learn a lot from each other! It's important for us to make sure the environment where these discussions happen is inclusive and supportive. Everyone should feel comfortable to participate! The following guidelines are meant to codify these intentions.
+We've found that code reading clubs work best when you involve people with different backgrounds and levels of experience. People read code differently and we can learn a lot from each other. It's important for us to make sure the environment where these discussions happen is inclusive and supportive. Everyone should feel comfortable to participate! The following guidelines are meant to codify these intentions.
 
 ## How to be with each other
 
