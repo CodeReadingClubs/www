@@ -9,6 +9,8 @@ We've found that code reading clubs work best when you involve people with diffe
 
 ## How to be with each other
 
+We're working on this - our intent:
+
 > a coherent paragraph about "no harassment" that I was unable to write
 
 > do we want to list the Recourse Center guidelines? (“no feigning surprise”,“no well-actuallys”, “no backseat driving”, and “no subtle -isms”). I like it and it mostly applies (the backseat driving one is irrelevant because everyone mostly has the same context)
@@ -23,4 +25,8 @@ As a facilitator it's important that you not only follow your code of conduct, b
 
 ## Talk to us
 
-> is this section for people in our clubs who need us to deal with a CoC issue, or for people who want to run a club and have questions?
+### hello@code-reading.org
+
+If you experience any behaviours or atmosphere in our groups that feels contrary to these values, please let us know. We want everyone to feel safe, equal and welcome.
+
+If you have any questions, concerns or suggestions regarding this policy, please get in touch.
