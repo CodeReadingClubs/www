@@ -14,6 +14,6 @@ deploy:
   skip_cleanup: true
   on:
     branch: main
-env:
-  global:
-    secure: G8UahyiG8yU4KtGVW3BTX+4ShIo4i85NXnWI5hA1NCHkGtjYtO3vz3JCgVgnlF441ADnRDD804u9FuJStLkOiAtf/Wc4V8HWZoU0sdNfQlwSIarkDV6lKKQDIBCVetbFzAb4qpySmU5knG/P19KDqh/RhhtnAjbMEdvb64xeny92bQ2V/44lbktyHHRoK+nEWbsZc7H7uBjLKmSHfM6oRU66Bn1Vofw6/ZTBm0Aw+svX4p0hnex8/Ueqj5C453IR9bNGL37ixvFee3tHkAkWOjQIrVY4gKRXbJjAhodBqCqoWpc6mcaPJlUfFcJGBkomTjod3l1uenPk6x75+HIkbzEt1dq/BrxyTa+oWaPuAHomD+/yMJN/lmGznCdMMOGowdu/x1lYLyslE10uA1yJ+kLT7L1ziDG9kvHL3BPzbdoOFos+FWqV7vJ2LFwygF7DYz7SXxX9o2tkSyzBoioNx9JWddV7Nzsk0VpjMSeewuKoKQe7JSaKO7uxJaxZU4HBkDpV+3yIq5xN6phAAtGxr2Euae26IfaTBa8RX0pbP+Cvu/8qD7z5E6xBXWwzy3LfSml62EWVhpmli8XmnYGXHI8Ok2aPMw7dz+aZu/EYJPyvkdbidBAP+lFCFi79TDJAsZ9EES5gOGvWQt38oGRaEV9vaw74deBzNGWFxqzjhtE=
+sudo: required
+addons:
+  chrome: stable
