@@ -15,5 +15,6 @@ deploy:
   on:
     branch: main
 sudo: required
+services: xvfb
 addons:
   chrome: stable
