@@ -21,7 +21,7 @@ Your personal information belongs to you. Any personal information we get from y
 
 In our remote public code reading sessions we use collaborative tools to allow us to talk to each other and to collect discussion points from attendees.
 
-#### Jamboard, Miro, Zoom ...
+To keep it simple, we may use online collaboration tools that are accessible using public links. After each session we will aim to make these private or remove them from the internet as soon as we no longer need them to be public.
 
 ### Recording
 
