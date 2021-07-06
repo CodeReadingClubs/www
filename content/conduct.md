@@ -11,7 +11,7 @@ We've found that code reading clubs work best when you involve people with diffe
 
 We expect ourselves and participants to ensure that our community is harrassment-free for everyone.
 
-### Examples of behaviour that help us to provide an an open, welcoming, diverse, inclusive, and healthy community:
+### Examples of behaviours that help us to provide an an open, welcoming, diverse, inclusive, and healthy community:
 
 * Demonstrating empathy and kindness toward other people
 * Being respectful of differing opinions, viewpoints, and experiences
