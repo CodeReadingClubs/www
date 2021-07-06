@@ -23,9 +23,9 @@ We tried them, we loved them, we shared them with other developers
 ### Join us for a public club! Free. Online. International.
 Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? We sometimes run sessions about how to start a club or invite new people to join our public clubs.
 
-- We are planning our next session for 1 June 2021 at 19:00CET.
+- We are planning our next session for 6 July 2021 at 19:00CET.
 
-#### [Get in touch](mailto:hello@code-reading.org) if you are interested in finding out more.
+#### Interested? [Get in touch](mailto:hello@code-reading.org) or [Join our mailing list](http://eepurl.com/hzYTQv)
 
 You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 

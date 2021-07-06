@@ -3,6 +3,15 @@ elm:
 - latest-0.19.1
 elm-test: 0.19.1
 elm-format: 0.8.2
+dist: trusty
+sudo: false
+addons:
+  chrome: stable
+before_install:
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+cache:
+  directories:
+    - node_modules
 script:
 - npm run build
 - npm test
