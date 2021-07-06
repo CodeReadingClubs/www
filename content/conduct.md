@@ -9,13 +9,31 @@ We've found that code reading clubs work best when you involve people with diffe
 
 ## How to be with each other
 
-We're working on this - our intent:
+We expect ourselves and participants to ensure that our community is harrassment-free for everyone.
 
-> a coherent paragraph about "no harassment" that I was unable to write
+### Examples of behaviour that help us to provide an an open, welcoming, diverse, inclusive, and healthy community:
 
-> do we want to list the Recourse Center guidelines? (“no feigning surprise”,“no well-actuallys”, “no backseat driving”, and “no subtle -isms”). I like it and it mostly applies (the backseat driving one is irrelevant because everyone mostly has the same context)
+* Demonstrating empathy and kindness toward other people
+* Being respectful of differing opinions, viewpoints, and experiences
+* Giving and gracefully accepting constructive feedback
+* Accepting responsibility and apologising to those affected by our mistakes,
+  and learning from the experience
+* Focusing on what is best not just for us as individuals, but for the
+  overall community
+* When discussing code, avoid critisising the person who wrote the code; remember we do not know the context or reasons for decisions made when writing the code
 
-> I'd also like to add a point to avoid critisizing the person who wrote the code, and to hold place for unknown context or reasons for weird code structure etc., especially if the code was written by one of the attendees.
+
+### Examples of unacceptable behavior include:
+
+* The use of sexualised language or imagery, and sexual attention or
+  advances of any kind
+* Trolling, insulting or derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or email
+  address, without their explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
+
 
 ## Guidelines for running a club
 
