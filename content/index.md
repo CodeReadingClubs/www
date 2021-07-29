@@ -23,7 +23,7 @@ We tried them, we loved them, we shared them with other developers
 ### Join us for a public club! Free. Online. International.
 Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? We sometimes run sessions about how to start a club or invite new people to join our public clubs.
 
-- We are planning our next session for 3 August 2021 at 19:00CET.
+- Our next session is on 3 August 2021 from 19:00 to 20:30 (CET).
 
 #### Interested? [Get in touch](mailto:hello@code-reading.org) or [Join our mailing list](http://eepurl.com/hzYTQv)
 
