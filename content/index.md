@@ -21,9 +21,9 @@ We tried them, we loved them, we shared them with other developers
 ## How do I get started?
 
 ### Join us for a public club! Free. Online. International.
-Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? We sometimes run sessions about how to start a club or invite new people to join our public clubs.
+Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? We sometimes run sessions about how to start a club or invite new people to join our public clubs. We currently hold an open public club on the first Tuesday of every month.
 
-- Our next session is on 3 August 2021 from 19:00 to 20:30 (CET).
+- Our next session is on 7 September 2021 from 19:00 to 20:30 (CET).
 
 #### Interested? [Get in touch](mailto:hello@code-reading.org) or [Join our mailing list](http://eepurl.com/hzYTQv)
 
