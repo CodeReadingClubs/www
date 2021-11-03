@@ -3,4 +3,4 @@ elm-stuff/
 dist/
 .cache/
 gen/
-
+.DS_Store
