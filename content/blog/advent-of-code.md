@@ -57,13 +57,13 @@ We deliberately choose to present the code snippets to as images rather than as 
 
 Here is something we might use as a quiz like question, asking you which of the fields of user have a default value, and if they have one, what is it.
 
-![Advent-of-Code-Dec-2](Advent-of-Code-Dec-2.png)
+![Advent-of-Code-Dec-2](images/article-covers/Advent-of-Code-Dec-2.png)
 
 ### Open questions
 
 An example of an open question could be to ask you for a summary of this code snippet in natural language.
 
-![Advent-of-Code-Dec-1](Advent-of-Code-Dec-1.png)
+![Advent-of-Code-Dec-1](images/article-content/Advent-of-Code-Dec-1.png)
 
 ## Help us!
 

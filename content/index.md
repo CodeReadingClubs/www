@@ -3,6 +3,9 @@ title: Code Reading Clubs
 type: page
 ---
 
+## Help us get ready for December!
+[We're exited for our 1st Advent of Code Reading](blog/advent-of-code)
+
 ## What is a Code Reading Club?
 
 It's an experiment!

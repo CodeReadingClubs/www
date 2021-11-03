@@ -8,6 +8,10 @@
   --black: #1f271b;
 }
 
+img {
+  max-width: 100%;
+}
+
 .avatar img {
   border-radius: 50%;
 }
