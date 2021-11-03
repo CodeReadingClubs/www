@@ -32,14 +32,14 @@ We do different things when we read code, sometimes we are searching for a right
 
 Because of these different forms of code reading activities that exist, we envision different types of code reading exercises too. Specifically:
 
-1) "Quiz" like questions with a right answer, like:
+1. "Quiz" like questions with a right answer, like:
 
 * Where is variable x initialised?
 * What values can y take over the course of this snippet?
 * What type of variable does function f return?
 * In what lines is variable z accessed or set?
 
-2) Open questions that are more meant for reflection, like:
+2. Open questions that are more meant for reflection, like:
 
 * What is the most important line of code?
 * What decisions were made while making this code?
