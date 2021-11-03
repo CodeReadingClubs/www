@@ -3,8 +3,15 @@
 <title>Our code reading club adventures</title>
 <description>Getting started with code reading clubs</description>
 <link>https://codereadingclubs.guithub.io/www/blog</link>
-<lastBuildDate>Wed, 03 Nov 2021 10:55:22 +0000</lastBuildDate>
+<lastBuildDate>Wed, 03 Nov 2021 11:37:35 +0000</lastBuildDate>
 <generator>Code Reading Clubs</generator>
+<item>
+<title>Advent of Code Reading</title>
+<description>Advent of Code Reading</description>
+<link>https://code-reading.org/blog/advent-of-code</link>
+<guid>https://code-reading.org/blog/advent-of-code</guid>
+<pubDate>Wed, 03 Nov 2021 00:00:00 GMT</pubDate>
+</item>
 <item>
 <title>Reflections</title>
 <description>At the start of each session, we reflect on when our new skills have come in handy over the last few weeks.</description>
