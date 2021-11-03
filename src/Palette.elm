@@ -19,7 +19,7 @@ blogHeading : String -> Element msg
 blogHeading title =
     Element.paragraph
         [ Font.bold
-        , Font.family [ Font.typeface "Raleway" ]
+        , Font.family [ Font.typeface "Roboto" ]
         , Element.Region.heading 1
         , Font.size 36
         , Font.center
