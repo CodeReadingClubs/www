@@ -32,7 +32,7 @@ all =
 ### Images files need to be added before they can be used by authors and articles
 
 - [author images](https://github.com/CodeReadingClubs/www/tree/main/images/author)
-- [article images](https://github.com/CodeReadingClubs/www/tree/main/images/article-covers)
+- [article images](https://github.com/CodeReadingClubs/www/tree/main/images/articles)
 
 ## Deploy to GitHub pages with Travis
 
@@ -65,4 +65,3 @@ Currently configured with GITHUB_TOKEN value.
 - [Documentation site](https://elm-pages.com)
 - [Elm Package docs](https://package.elm-lang.org/packages/dillonkearns/elm-pages/latest/)
 - [`elm-pages` blog](https://elm-pages.com/blog)
-

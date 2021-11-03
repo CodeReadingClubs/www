@@ -4,7 +4,7 @@
   "author": "Katja Mordaunt",
   "title": "Reflections",
   "description": "At the start of each session, we reflect on when our new skills have come in handy over the last few weeks.",
-  "image": "images/article-covers/miro-retro.jpg",
+  "image": "images/articles/miro-retro.jpg",
   "published": "2020-07-25",
 }
 ---
