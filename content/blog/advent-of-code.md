@@ -42,12 +42,12 @@ Because of these different forms of code reading activities that exist, we envis
 2) Open questions that are more meant for reflection, like:
 
 * What is the most important line of code?
-* What decisions where made while making this code
+* What decisions were made while making this code
 * Summarise this code in 5 sentences.
 
 We will mix up different types so it remains exciting and fresh for the whole month!
 
-We deliberately choose to present the code snippets to as images rather than as code you can run. Of course you are free to copy the code an examine its execution, but the idea is to practice the skill or reading itself!
+We deliberately choose to present the code snippets to as images rather than as code you can run. Of course you are free to copy the code and examine its execution, but the idea is to practice the skill or reading itself!
 
 
 
