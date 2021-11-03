@@ -22,7 +22,7 @@ To compare with physicial exercise: if you train for a marathon, you will do var
 
 In many talks I have used Advent of Code as an example of our focus on writing, saying something like: there is no Advent of Reading code (f.e. I say that think literally here: https://youtu.be/jjMlguOrWHc?t=886)
 
-But after saying that a few times I was like: well why isn't there an Advent of Code Reading? So.... let's dp this!! But of course we do not want to do this alone.... And you can help us with sharing code snippets.
+But after saying that a few times I was like: well why isn't there an Advent of Code Reading? So.... let's do this!! But of course we do not want to do this alone.... And you can help us with sharing code snippets.
 
 
 
@@ -42,7 +42,7 @@ Because of these different forms of code reading activities that exist, we envis
 2) Open questions that are more meant for reflection, like:
 
 * What is the most important line of code?
-* What decisions were made while making this code
+* What decisions were made while making this code?
 * Summarise this code in 5 sentences.
 
 We will mix up different types so it remains exciting and fresh for the whole month!
