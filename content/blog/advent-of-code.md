@@ -45,8 +45,25 @@ Because of these different forms of code reading activities that exist, we envis
 * What decisions where made while making this code
 * Summarise this code in 5 sentences.
 
-We will mix up different types so it reamins exciting and fresh for the whole month!
+We will mix up different types so it remains exciting and fresh for the whole month!
 
+We deliberately choose to present the code snippets to as images rather than as code you can run. Of course you are free to copy the code an examine its execution, but the idea is to practice the skill or reading itself!
+
+
+
+## Some examples
+
+### Quiz like questions
+
+Here is something we might use as a quiz like question, asking you which of the fields of user have a default value, and if they have one, what is it.
+
+![Advent-of-Code-Dec-2](Advent-of-Code-Dec-2.png)
+
+### Open questions
+
+An example of an open question could be to ask you for a summary of this code snippet in natural language.
+
+![Advent-of-Code-Dec-1](Advent-of-Code-Dec-1.png)
 
 ## Help us!
 
