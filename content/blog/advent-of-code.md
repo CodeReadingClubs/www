@@ -3,9 +3,9 @@
   "type": "blog",
   "author": "Felienne Hermans",
   "title": "Advent of Code Reading",
-  "description": "This post is still in draft",
-  "image": "images/article-covers/neontribe.png",
-  "draft": true,
+  "description": "Advent of Code Reading",
+  "image": "images/article-covers/Advent-of-Code-Dec-2.png",
+  "draft": false,
   "published": "2021-11-03",
 }
 ---
@@ -26,7 +26,7 @@ But after saying that a few times I was like: well why isn't there an Advent of 
 
 
 
-## Advent of Reading Code
+## Advent of Code Reading 
 
 We do different things when we read code, sometimes we are searching for a right answer like: "where is this variable initialized" but sometimes we are reading more to understand code. In [my book](http://felienne.com/book) I talk about these different type of programming activities is more depth if you are curious!
 
