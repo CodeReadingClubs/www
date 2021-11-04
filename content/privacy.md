@@ -13,7 +13,7 @@ Your personal information belongs to you. Any personal information we get from y
 
 ### Contact information
 
-If we ask for your email address we will only use it to contact you regarding sessions you signed up for, or to notify of future opportunities to engage with Code Reading Clubs.
+If we ask for your email address we will only use it to contact you regarding sessions you signed up for, or to notify of future opportunities to engage with Code Reading Club.
 
 ## Public code reading sessions
 

@@ -1,7 +1,7 @@
 {
-  "name": "code-reading-clubs-www",
+  "name": "code-reading-club-www",
   "version": "0.0.0",
-  "description": "Code Reading Clubs information website.",
+  "description": "Code Reading Club information website.",
   "scripts": {
     "start": "elm-pages develop",
     "serve": "npm run build && http-server ./dist -a localhost -p 3000 -c-1",

@@ -34,10 +34,10 @@ manifest =
     , orientation = Manifest.Portrait
     , description = "Information about getting started with code reading clubs at work."
     , iarcRatingId = Nothing
-    , name = "Code Reading Clubs"
+    , name = "Code Reading Club"
     , themeColor = Just Color.white
     , startUrl = pages.index
-    , shortName = Just "Code Reading Clubs"
+    , shortName = Just "Code Reading Club"
     , sourceIcon = images.iconPng
     , icons = []
     }
@@ -188,7 +188,7 @@ pageView model siteMetadata page viewForPage =
             }
 
         Metadata.BlogIndex ->
-            { title = "Code Reading Clubs blog"
+            { title = "Code Reading Club blog"
             , body =
                 [ Element.column [ Element.padding 20, Element.centerX ] [ Index.view siteMetadata ]
                 ]
@@ -219,10 +219,10 @@ head metadata =
                 Metadata.Page meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "Code Reading Clubs"
+                        , siteName = "Code Reading Club"
                         , image =
                             { url = images.iconPng
-                            , alt = "Code Reading Clubs logo"
+                            , alt = "Code Reading Club logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
@@ -235,7 +235,7 @@ head metadata =
                 Metadata.Article meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "Code Reading Clubs"
+                        , siteName = "Code Reading Club"
                         , image =
                             { url = meta.image
                             , alt = meta.description
@@ -272,7 +272,7 @@ head metadata =
                     in
                     Seo.summary
                         { canonicalUrlOverride = Nothing
-                        , siteName = "Code Reading Clubs"
+                        , siteName = "Code Reading Club"
                         , image =
                             { url = meta.avatar
                             , alt = meta.name ++ "'s articles."
@@ -292,16 +292,16 @@ head metadata =
                 Metadata.BlogIndex ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "Code Reading Clubs"
+                        , siteName = "Code Reading Club"
                         , image =
                             { url = images.iconPng
-                            , alt = "Code Reading Clubs logo"
+                            , alt = "Code Reading Club logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = siteTagline
                         , locale = Nothing
-                        , title = "Code Reading Clubs blog"
+                        , title = "Code Reading Club blog"
                         }
                         |> Seo.website
            )
