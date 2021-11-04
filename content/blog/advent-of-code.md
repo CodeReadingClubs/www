@@ -20,7 +20,7 @@ Now of course there is nothing wrong with writing code, and there is nothing wro
 
 To compare with physicial exercise: if you train for a marathon, you will do various things! Slow low runs, quick interval trainings, core exercisese etc. The goal of code reading clubs has always been to widen the activities we do as a field to advance our own skills.
 
-In many talks I have used Advent of Code as an example of our focus on writing, saying something like: there is no Advent of Reading code (f.e. I say that think literally here: https://youtu.be/jjMlguOrWHc?t=886)
+In many talks I have used Advent of Code as an example of our focus on writing, saying something like: there is no Advent of Reading code (f.e. I say that think literally here: [https://youtu.be/jjMlguOrWHc?t=886](https://youtu.be/jjMlguOrWHc?t=886))
 
 But after saying that a few times I was like: well why isn't there an Advent of Code Reading? So.... let's do this!! But of course we do not want to do this alone.... And you can help us with sharing code snippets.
 
