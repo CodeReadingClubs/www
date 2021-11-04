@@ -43,7 +43,7 @@ generate { siteTagline, siteUrl } siteMetadata =
         , description = siteTagline
         , url = "https://codereadingclubs.guithub.io/www/blog"
         , lastBuildTime = Pages.builtAt
-        , generator = Just "Code Reading Clubs"
+        , generator = Just "Code Reading Club"
         , items = siteMetadata |> List.filterMap metadataToRssItem
         , siteUrl = siteUrl
         }

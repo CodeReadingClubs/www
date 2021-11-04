@@ -1,5 +1,5 @@
 ---
-title: Code Reading Clubs
+title: Code Reading Club
 type: page
 ---
 

@@ -9,7 +9,7 @@ import Html exposing (Html)
 import Metadata exposing (Metadata)
 import Pages
 import Pages.Directory as Directory exposing (Directory)
-import Pages.ImagePath as ImagePath
+import Pages.ImagePath as ImagePath exposing (ImagePath)
 import Pages.PagePath as PagePath exposing (PagePath)
 import Palette
 
@@ -78,11 +78,11 @@ header currentPath =
                 { url = "/"
                 , label =
                     Element.el [ Font.size 30, Element.spacing 16 ]
-                        (Element.text "Code Reading Clubs")
+                        (Element.text "Code Reading Club")
                 }
-            , Element.row [ Element.paddingXY 0 8, Element.spacing 15 ]
+            , Element.column [ Element.paddingXY 0 8, Element.spacing 8 ]
                 [ highlightableLink currentPath Pages.pages.blog.directory "Our code reading adventures"
-                , githubRepoLink
+                , iconLink Pages.images.github "Resources" "https://github.com/codereadingclubs/resources"
                 ]
             ]
         ]
@@ -90,15 +90,31 @@ header currentPath =
 
 footer : Element msg
 footer =
-    Element.wrappedRow
-        [ Element.Region.footer
+    Element.column
+        [ Element.width (Element.fill |> Element.maximum 800)
+        , Element.Region.footer
         , Element.centerX
-        , Element.spacing 25
-        , Element.padding 40
+        , Element.paddingXY 30 0
         ]
-        [ Element.text "We strive to be inclusive and value all people equally."
-        , Element.link [] { label = Element.text "Privacy Policy", url = "/privacy" }
-        , Element.link [] { label = Element.text "Code of conduct", url = "/conduct" }
+        [ Element.row
+            [ Element.centerX, Element.paddingXY 0 15 ]
+            [ Element.paragraph [] [ Element.text "We strive to be inclusive and value all people equally." ] ]
+        , Element.wrappedRow
+            [ Element.spaceEvenly
+            , Element.spacing 25
+            , Element.centerX
+            , Element.paddingXY 0 10
+            ]
+            [ Element.link [] { label = Element.text "Privacy Policy", url = "/privacy" }
+            , Element.link [] { label = Element.text "Code of conduct", url = "/conduct" }
+            ]
+        , Element.wrappedRow
+            [ Element.spaceEvenly
+            , Element.centerX
+            , Element.paddingXY 0 10
+            ]
+            [ iconLink Pages.images.twitter "Twitter" "http://www.twitter.com/CodeReadingClub"
+            ]
         ]
 
 
@@ -126,14 +142,19 @@ highlightableLink currentPath linkDirectory displayName =
         }
 
 
-githubRepoLink : Element msg
-githubRepoLink =
+iconLink : ImagePath key -> String -> String -> Element msg
+iconLink icon content href =
     Element.newTabLink []
-        { url = "https://github.com/codereadingclubs/resources"
+        { url = href
         , label =
-            Element.image
-                [ Element.width (Element.px 22)
-                , Font.color Palette.color.primary
+            Element.row [ Element.spacing 5 ]
+                [ Element.image
+                    [ Element.width (Element.px 22)
+                    , Font.color Palette.color.primary
+                    ]
+                    { src = ImagePath.toString icon, description = "" }
+                , Element.paragraph
+                    []
+                    [ Element.text content ]
                 ]
-                { src = ImagePath.toString Pages.images.github, description = "Resources github repo" }
         }
