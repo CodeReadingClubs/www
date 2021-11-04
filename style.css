@@ -42,6 +42,12 @@ footer a {
   border-top: none !important;
 }
 
+nav a.s {
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 0 5px;
+}
+
 nav a.s:focus {
   background-color: var(--yellow);
   border-top: 4px solid var(--yellow);
