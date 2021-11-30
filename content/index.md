@@ -4,7 +4,7 @@ type: page
 ---
 
 ## Help us get ready for December!
-[We're exited for our 1st Advent of Reading Code](blog/advent-of-reading-code)
+[We're exited for our 1st Code Reading Club Reading Countdown](blog/countdown-post)
 ...where people solve a little programming problem every day in December as a means of deliberate code reading practice.
 
 ## What is a Code Reading Club?
