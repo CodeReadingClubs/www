@@ -22,7 +22,7 @@ Today's code reading countdown.
 
 **Question**
 
-Which JavaScript behavior(s) and feature(s) does t his code exploit to *not* break where other languages might protest?
+Which JavaScript behavior(s) and feature(s) does this code exploit to *not* break where other languages might protest?
 
 ## Submission
 
