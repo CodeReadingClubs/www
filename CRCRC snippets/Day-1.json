@@ -1,0 +1,37 @@
+{
+  "tab": {
+    "id": "05942b51-a505-4318-a118-24e6767e4b28",
+    "created_at": "2021-11-26T14:24:37.394Z",
+    "name": "Day-1"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "15e46e4d-2c71-4a1f-892d-fadc9993ba4f",
+        "tabSize": 4,
+        "language": "javascript",
+        "value": "// four ways to match four slashes\nconst input = '////';\n\nconst first = /[/][/][/][/]/;\nconst second = /\\/\\/\\/\\//;\nconst third = /[/]{4}/;\nconst fourth = /\\/{4}/;\n\nconst result = [first, second, third, fourth].map(regex => regex.test(input));\nconsole.log(result);\n\n\n//Submitted by:\n//Martin Winkler @KanonierWinkler"
+      }
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 858,
+    "height": 392,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "teal",
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}

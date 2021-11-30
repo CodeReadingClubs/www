@@ -1,0 +1,37 @@
+{
+  "tab": {
+    "id": "86d3ab9c-a527-487d-a511-ffde7d7405dc",
+    "created_at": "2021-11-26T14:54:45.104Z",
+    "name": "Day-3"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "718ecdf8-55ed-46bb-aee7-c35aab0dd88c",
+        "tabSize": 4,
+        "language": "javascript",
+        "value": "function prefixTreeBuilder(wordList) {\n  const root = {};\n  for (const word of wordList) {\n    let node = root;\n    for (const char of word) {\n      let nextNode = node[char];\n      if (!nextNode) node[char] = nextNode = {end: false};\n      node = nextNode;\n    }\n    node.end = true; // mark the nodes that are endings of real words\n  }\n\n  function findChildren(node, prefix, list, maxLength) {\n    if (node.end) list.push(prefix);\n    for (const char in node) {\n      findChildren(node[char], prefix + char, list, maxLength);\n      if (list.length >= maxLength) return list;\n    }\n    return list;\n  }\n\n  function findSuffixes(prefix, maxLength) {\n    prefix = prefix.toLowerCase();\n    let node = root;\n    for (const char of prefix) {\n      let nextNode = node[char];\n      if (!nextNode) return [\"\"];\n      node = node[char];\n    }\n    let words = findChildren(node, prefix, [], maxLength);\n    return words;\n  }\n\n  return {root, findSuffixes};\n}\n\n"
+      }
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 729,
+    "height": 852,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "teal",
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}

@@ -2,9 +2,9 @@
 {
   "type": "blog",
   "author": "Felienne Hermans",
-  "title": "Advent of Reading Code",
-  "description": "Advent of Reading Code",
-  "image": "images/articles/Advent-of-Code-Dec-2.png",
+  "title": "Code Reading Club Reading Countdown",
+  "description": "Code Reading Club Reading Countdown",
+  "image": "images/articles/CRCRC-1.png",
   "draft": false,
   "published": "2021-11-03",
 }
@@ -53,15 +53,15 @@ We deliberately choose to present the code snippets as images rather than as cod
 
 ### Quiz-like questions
 
-Here is something we might use as a quiz-like question, asking you which of the fields of user have a default value, and if they have one, what is it.
+Here is something we might use as a quiz-like question, asking you whether all these regexes are the same.
 
-![Advent-of-Code-Dec-2](images/articles/Advent-of-Code-Dec-2.png)
+![Advent-of-Code-Dec-2](images/articles/CRCRC-1.png)
 
 ### Open questions
 
 An example of an open question could be to ask you for a summary of this code snippet in natural language.
 
-![Advent-of-Code-Dec-1](images/articles/Advent-of-Code-Dec-1.png)
+![Advent-of-Code-Dec-1](images/articles/CRCRC-2.png)
 
 ## Help us!
 
