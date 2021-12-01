@@ -14,13 +14,13 @@
 
 ## Countdown - Snippet 1
 
-Here is our first code reading exercise, a question-based one!
+Here is our first code reading exercise, a question-based one in JavaScript.
 
 **Snippet**
 
 ![Advent-of-Code-Dec-2](images/articles/CRCRC-1.png)
 
-Snippet in text
+**Snippet in text**
 
 ```javascript
 // four ways to match four slashes
