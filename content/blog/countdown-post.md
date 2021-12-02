@@ -24,7 +24,7 @@ In many talks I have used Advent of Code as an example of our focus on writing, 
 
 But after saying that a few times I was like: well why isn't there an Advent of Reading Code? So.... let's do this!! But of course we do not want to do this alone.... And you can help us with sharing code snippets.
 
-## Advent of Reading Code
+## Code Reading Club Reading Countdown
 
 We do different things when we read code, sometimes we are searching for a right answer like: "where is this variable initialized" but sometimes we are reading more to understand code. In [my book](http://felienne.com/book) I talk about these different type of programming activities is more depth if you are curious!
 
@@ -65,4 +65,4 @@ An example of an open question could be to ask you for a summary of this code sn
 
 ## Help us!
 
-As experienced code reading club runners, we have a few lovely examples we can make into Advent Puzzles but... we'd love your input too! Submit your snippet in our [form](https://forms.gle/UqbyhhZFwoTxRWvG7) and if we select it you will get a shoutout on Twitter and of course we count that as a submission for the day!
+As experienced code reading club runners, we have a few lovely examples we can make into Code Reading Club Reading Countdown Puzzles but... we'd love your input too! Submit your snippet in our [form](https://forms.gle/UqbyhhZFwoTxRWvG7) and if we select it you will get a shoutout on Twitter and of course we count that as a submission for the day!
