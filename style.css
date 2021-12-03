@@ -91,3 +91,12 @@ body h3+p+ul+h4 a {
 body h3+p+ul+h4 a:hover {
   border: 4px dashed var(--blue);
 }
+
+code {
+  background: white;
+  border-radius: 5px;
+  display: block;
+  font-size: 14px;
+  overflow-x: auto;
+  padding: 5px;
+}

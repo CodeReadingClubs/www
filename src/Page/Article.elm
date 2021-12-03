@@ -28,7 +28,13 @@ view metadata viewForPage =
             ]
         , publishedDateView metadata |> Element.el [ Font.size 16, Font.color (Element.rgba255 0 0 0 0.6) ]
         , Palette.blogHeading metadata.title
-        , articleImageView metadata.image
+        , (case metadata.image of
+                Nothing ->
+                    Element.text ""
+
+                Just (image) ->
+                    articleImageView image
+        )
         , viewForPage
         ]
     }
