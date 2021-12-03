@@ -1,0 +1,37 @@
+{
+  "tab": {
+    "id": "58443e69-dd77-4693-9bda-34539b845510",
+    "created_at": "2021-12-03T12:34:27.256Z",
+    "name": "Untitled Project"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "15e685f4-7327-4e51-8410-366aded4e606",
+        "tabSize": 4,
+        "language": "java",
+        "value": "public static void mkSnack(Activity av, View v, SpannableStringBuilder msg) {\n  av.runOnUiThread(new Runnable() {\n    public void run() {\n      AppStatusManager appStatusManager = new AppStatusManager();\n      appStatusManager.makeSnackBar(v, msg, Snackbar.LENGTH_LONG)\n        .setAction(av.getString(R.string.dismiss_text), new View.OnClickListener() \n        {\n          @Override\n          public void onClick(View v) {\n            appStatusManager.getmSnackBar().dismiss();\n          }\n        }).show();\n    }\n  });\n}\n  //Submitted by Dan Fishgold"
+      }
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 854,
+    "height": 492,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "teal",
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
