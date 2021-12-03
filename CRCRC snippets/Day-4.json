@@ -1,0 +1,37 @@
+{
+  "tab": {
+    "id": "5753efc8-ea2f-4795-9484-aacf6f247197",
+    "created_at": "2021-12-02T15:17:57.358Z",
+    "name": "Day 4"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "8bab40b4-23d6-41d2-8f53-a4fc43d50187",
+        "tabSize": 4,
+        "language": "ruby",
+        "value": "def call\n    total = 0\n    num_of_violations_allowed = 0\n\n    violations.each do |violation|\n        message_length = violation.message.length + 80 \n        # 80 is ~ the size of html wraps violation message\n\n        if total + message_length < LIMIT\n            total += message_length\n            num_of_violations_allowed += 1\n        else\n            break\n        end\n    end\n\n    num_of_violations_allowed\nend"
+      }
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 854,
+    "height": 472,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "teal",
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
