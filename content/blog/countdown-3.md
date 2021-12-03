@@ -4,7 +4,6 @@
   "author": "Felienne Hermans",
   "title": "Code Reading Club Reading Countdown - 3",
   "description": "Code Reading Club Reading Countdown - 3",
-  "image": "images/articles/CRCRC-3.png",
   "draft": true,
   "published": "2021-12-03",
 }
