@@ -1,0 +1,37 @@
+{
+  "tab": {
+    "id": "fddd3c60-e0d7-42c2-b14a-2bb8612ce3df",
+    "created_at": "2021-12-02T15:17:58.926Z",
+    "name": "Day-5"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "25f36124-2816-493a-972e-0219af1d020c",
+        "tabSize": 4,
+        "language": "csharp",
+        "value": "public bool TransitionTo(Vector2 target, Vector2 direction)\n{\n    MoveTowardsX(target.X, 60f * Engine.DeltaTime);\n    MoveTowardsY(target.Y, 60f * Engine.DeltaTime);\n\n    //Update hair because the normal update loop is not firing right now!\n    UpdateHair(false);\n    UpdateCarry();\n\n    //Returns true when transition is complete\n    if (Position == target)\n    {\n        ZeroRemainderX();\n        ZeroRemainderY();\n        Speed.X = (int)Math.Round(Speed.X);\n        Speed.Y = (int)Math.Round(Speed.Y);\n        return true;\n    }\n    else\n      \treturn false;\n}\n\n//Submitted by Dan Fishgold\n\n"
+      }
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 767,
+    "height": 612,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "teal",
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
