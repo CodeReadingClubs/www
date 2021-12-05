@@ -5,7 +5,7 @@
   "title": "Code Reading Club Reading Countdown - 6",
   "description": "Code Reading Club Reading Countdown - 6",
   "image": "images/articles/CRCRC-6.png",
-  "draft": true,
+  "draft": false,
   "published": "2021-12-06",
 }
 ---
