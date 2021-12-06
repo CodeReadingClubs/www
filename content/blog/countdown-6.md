@@ -20,7 +20,7 @@ Today's code reading countdown in Java.
 
 ![CRCRC-6](/images/articles/CRCRC-6.png)
 
-Snippet in text
+**Snippet in text**
 
 ```java
 public static void mkSnack(Activity av, View v, SpannableStringBuilder msg) {

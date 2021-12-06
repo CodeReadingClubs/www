@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "9db5b706-721d-4a6f-865e-66f26671cdb6",
+    "created_at": "2021-12-06T10:26:13.956Z",
+    "name": "Day 8"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "daf6402a-bcc4-4e73-95b7-9fcd11b15227",
+        "tabSize": 4,
+        "language": "rust",
+        "value": "#[derive(Debug, Clone, PartialEq, Eq)]\npub struct PartialTargetTriple {\n    pub arch: Option<String>,\n    pub os: Option<String>,\n    pub env: Option<String>,\n}\n\nfn from_build() -> Result<PartialTargetTriple, String> {\n    let triple = if let Ok(triple) = env::var(\"RUSTUP_OVERRIDE_BUILD_TRIPLE\") {\n        triple\n    } else {\n        env::var(\"TARGET\").unwrap()\n    };\n    PartialTargetTriple::new(&triple).ok_or(triple)\n}"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 857,
+    "height": 432,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
