@@ -22,7 +22,7 @@ Today's code reading countdown in Lua.
 
 **Snippet in text**
 
-```java
+```lua
 curses = require 'curses'
 window = curses.initscr()
 
