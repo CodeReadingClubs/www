@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "c1fcdfd6-f92e-47e5-bf8a-abdd1ca1945a",
+    "created_at": "2021-12-06T10:13:56.613Z",
+    "name": "Day 7"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "1b307f18-bdec-4a7e-ae03-e708c0efdc47",
+        "tabSize": 4,
+        "language": "lua",
+        "value": "curses = require 'curses'\nwindow = curses.initscr()\n\nn = 0\n\nfunction render(window)\n  window:clear()\n  window:mvaddstr(5, 5, n)  -- print n at location (5, 5) on screen\n  window:refresh()\nend\n\nfunction update()\n  local key = curses.getch()\n  if key == '\\n' then  -- Enter\n    n = n + 1\n  end\nend\n\nwhile true do\n  render(window)\n  update()\nend"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 931,
+    "height": 732,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
