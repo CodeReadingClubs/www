@@ -39,7 +39,7 @@ generate :
     -> String
 generate { siteTagline, siteUrl } siteMetadata =
     Rss.generate
-        { title = "Our code reading club adventures"
+        { title = "Code Reading Countdown"
         , description = siteTagline
         , url = "https://codereadingclubs.guithub.io/www/blog"
         , lastBuildTime = Pages.builtAt

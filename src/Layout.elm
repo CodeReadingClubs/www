@@ -81,7 +81,7 @@ header currentPath =
                         (Element.text "Code Reading Club")
                 }
             , Element.column [ Element.paddingXY 0 8, Element.spacing 8 ]
-                [ highlightableLink currentPath Pages.pages.blog.directory "Our code reading adventures"
+                [ highlightableLink currentPath Pages.pages.blog.directory "Code Reading Countdown"
                 , iconLink Pages.images.github "Resources" "https://github.com/codereadingclubs/resources"
                 ]
             ]
