@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "8b00dace-35d4-478d-a416-d1e87a6bb32e",
+    "created_at": "2021-12-09T10:17:44.631Z",
+    "name": "Day-10"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "600ebca6-b0e6-4120-8bc6-fa388290af5c",
+        "tabSize": 4,
+        "language": "clojure",
+        "value": "(sv/defmethod ::viewer-bundle {:auth false}\n  [{:keys [pool] :as cfg} {:keys [profile-id file-id page-id token] :as params}]\n  (db/with-atomic [conn pool]\n    (let [file    (files/retrieve-file conn file-id)\n          project (retrieve-project conn (:project-id file))\n          page    (get-in file [:data :pages-index page-id])\n          file    (merge (dissoc file :data)\n                         (select-keys (:data file) [:colors :media :typographies]))\n          users   (teams/retrieve-users conn (:team-id project))\n\n          bundle  {:file file\n                   :page page\n                   :users users\n                   :project project}]\n\n      (if (string? token)\n        (do\n          (check-shared-token! conn file-id page-id token)\n          (assoc bundle :token token))\n        (let [stoken (retrieve-shared-token conn file-id page-id)]\n          (files/check-read-permissions! conn profile-id file-id)\n          (assoc bundle :token (:token stoken)))))))"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 864,
+    "height": 592,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
