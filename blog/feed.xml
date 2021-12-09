@@ -1,9 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
-<title>Our code reading club adventures</title>
+<title>Code Reading Countdown</title>
 <description>Getting started with code reading clubs</description>
 <link>https://codereadingclubs.guithub.io/www/blog</link>
-<lastBuildDate>Wed, 08 Dec 2021 19:26:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Dec 2021 15:27:14 +0000</lastBuildDate>
 <generator>Code Reading Club</generator>
 <item>
 <title>Code Reading Club Reading Countdown - 1</title>
@@ -11,6 +11,13 @@
 <link>https://code-reading.org/blog/countdown-1</link>
 <guid>https://code-reading.org/blog/countdown-1</guid>
 <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Code Reading Club Reading Countdown - 10</title>
+<description>Code Reading Club Reading Countdown - 10</description>
+<link>https://code-reading.org/blog/countdown-10</link>
+<guid>https://code-reading.org/blog/countdown-10</guid>
+<pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Code Reading Club Reading Countdown - 2</title>
