@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "d0f6417a-ff1d-44bb-992c-3b988c9ffa2d",
+    "created_at": "2021-12-09T10:25:04.542Z",
+    "name": "Untitled Project"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "326e1ff3-2e8d-4c55-b995-750db5de649c",
+        "tabSize": 4,
+        "language": "sql",
+        "value": "-- 학생들 중 여학생들을 확인하는 쿼리문을 작성하세요.\nselect * \nfrom student \nwhere st_reg_num like '______-2%' or st_reg_num like '______-4%';\n\nselect * \nfrom student \nwhere st_reg_num like '%-2%' or st_reg_num like '%-4%';\n"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 698,
+    "height": 292,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
