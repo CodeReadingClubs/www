@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "a362da0d-1372-4e46-9f47-de98e15cb625",
+    "created_at": "2021-12-09T10:45:23.680Z",
+    "name": "Day-12"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "cebef810-d000-4d7c-9bd5-e6f70f24485e",
+        "tabSize": 4,
+        "language": "haskell",
+        "value": "printSolutions [] = do\n   putStrLn \"false.\\n\"\nprintSolutions (u:us) = do\n   if null u\n      then putStr \"true\"\n      else putStr $ intercalate \",\\n\" [ show k ++ \" = \" ++ show v | (k,v) <- u ]\n   c <- getChar\n   case c of\n      ' ' -> do putStrLn \";\"\n                printSolutions us;\n      _   -> do putStrLn \"\""
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 835,
+    "height": 332,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
