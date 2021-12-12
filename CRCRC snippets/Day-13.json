@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "75ac38ea-7fec-45c1-9dd0-21b5587616b2",
+    "created_at": "2021-12-09T10:49:30.756Z",
+    "name": "Day-13"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "5994341f-a6c6-45c4-b09d-b4dffdb26bd4",
+        "tabSize": 4,
+        "language": "python",
+        "value": "sharks is baby, mommy, daddy, grandma, grandpa\nfor shark in sharks\n    repeat 3 times\n        print shark 'tututututudu'\n    print shark"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 767,
+    "height": 272,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
