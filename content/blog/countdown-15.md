@@ -14,17 +14,32 @@
 
 ## Countdown - Snippet 15
 
-We stick with educational languages for another day and now do... Scratch!
+Today, a snippet in APL!
 
 **Snippet**
 
-![CRCRC-14](/images/articles/CRCRC-14.png)
+![CRCRC-15](/images/articles/CRCRC-15.png)
+
+**Snippet in text**
+
+```apl
+V←3 1 9 1 5 12 7 9 18 135
+⍋V
+```
 
 **Question**
 
-What does this code do?
+APL's grade up (⍋) operation can be used to sort. What does its output mean and how can it be used to sort value?
 
-Bonus: What roles do each of the three variables play, using the [Roles of Variables](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.102.5359&rep=rep1&type=pdf) framework?
+To make it easier we are providing the output of the above code here:
+
+**Output**
+
+```
+2 4 1 5 7 3 8 6 9 10
+```
+
+Bonus: write the APL code that does the sorting.
 
 ## Submission
 
