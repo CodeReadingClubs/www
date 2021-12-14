@@ -12,7 +12,7 @@
 
 
 
-## Countdown - Snippet 13
+## Countdown - Snippet 14
 
 We stick with educational languages for another day and now do... Scratch!
 
