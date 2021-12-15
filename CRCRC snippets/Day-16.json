@@ -1,0 +1,42 @@
+{
+  "tab": {
+    "id": "3a533348-1dc3-479c-8db8-dacc4dabcf18",
+    "created_at": "2021-12-14T10:38:16.437Z",
+    "name": "Untitled Project"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "10f9cb23-4039-42c8-9b12-f390e3daadcc",
+        "tabSize": 4,
+        "language": "dart",
+        "value": "Parser buildParser() {\n  final builder = ExpressionBuilder();\n  builder.group()\n    ..primitive((pattern('+-').optional() &\n            digit().plus() &\n            (char('.') & digit().plus()).optional() &\n            (pattern('eE') & pattern('+-').optional() & digit().plus())\n                .optional())\n        .flatten('number expected')\n        .trim()\n        .map(num.tryParse))\n    ..wrapper(\n        char('(').trim(), char(')').trim(), (left, value, right) => value);\n  builder.group().prefix(char('-').trim(), (op, num a) => -a);\n  builder.group().right(char('^').trim(), (num a, op, num b) => pow(a, b));\n  builder.group()\n    ..left(char('*').trim(), (num a, op, num b) => a * b)\n    ..left(char('/').trim(), (num a, op, num b) => a / b);\n  builder.group()\n    ..left(char('+').trim(), (num a, op, num b) => a + b)\n    ..left(char('-').trim(), (num a, op, num b) => a - b);\n  return builder.build().end();\n}"
+      }
+    ],
+    "sizes": [
+      52.15386653711964,
+      47.84613346288036
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 819,
+    "height": 572,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
