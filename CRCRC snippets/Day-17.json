@@ -1,0 +1,47 @@
+{
+  "tab": {
+    "id": "7643f6c2-c31b-4636-a6f9-60a12d58389b",
+    "created_at": "2021-11-22T18:40:36.677Z",
+    "name": "Day-17"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "353a4064-bedb-48f8-9af6-a266e2f1d7fa",
+        "tabSize": 4,
+        "language": "ada",
+        "value": "with Ada.Text_IO; use Ada.Text_IO;\npackage body Scanner is\n\n   C : Character := ' ';\n\n   procedure Get_Next_Token is\n      T : Token renames Current_Token;\n   begin\n      while Is_Whitespace (C) loop\n         Next_C;\n      end loop;\n      if Is_Operator (C) then\n         T.Id := Token_Id (C);\n         Next_C;\n      elsif Is_Digit (C) then\n         T.ID := 'N';\n         T.Intval := 0;\n         loop\n            T.Intval := T.Intval * 10 + (Character'Pos (C) - Character'Pos ('0'));\n            Next_C;\n            exit when not Is_Digit (C);\n         end loop;\n      elsif At_End then\n         T.ID := Eol_Token;\n         C := ' ';\n      else\n         T.Id := Err_Token;\n         Next_C;\n      end if;\n   exception\n      when Constraint_Error =>\n         T.Id := Err_Token;\n         Next_C;\n   end Get_Next_Token;\n\nend Scanner;"
+      }
+    ],
+    "sizes": [
+      40.614019025696024,
+      59.385980974303976
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null,
+    "editorWidth": 896,
+    "editorHeight": 878,
+    "containerWidth": 896,
+    "containerHeight": 878
+  },
+  "settings": {
+    "width": 886,
+    "height": 826,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "lavender",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
