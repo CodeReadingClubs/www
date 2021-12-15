@@ -14,7 +14,7 @@
 
 ## Countdown - Snippet 16
 
-We stick with educational languages for another day and now do... Scratch!
+Today's code reading countdown is written in Dart.
 
 **Snippet**
 
