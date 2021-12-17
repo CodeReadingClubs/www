@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "id": "2cbf7e95-2c94-4b37-813c-dd2128210634",
+    "created_at": "2021-12-15T15:57:44.640Z",
+    "name": "Untitled Project"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "753ed93d-8cf0-42ed-8326-7ba7a4e7cabc",
+        "tabSize": 4,
+        "language": "elixir",
+        "value": "  @spec compare_dirs(Path.t(), Path.t()) ::\n          {\n            only1_paths :: list(Path.t()),\n            only2_paths :: list(Path.t()),\n            diff :: list({Path.t(), diff :: String.t()})\n          }\n  def compare_dirs(dir1, dir2) do\n    dir1 = Path.expand(dir1)\n    dir2 = Path.expand(dir2)\n\n    assert_dir!(dir1)\n    assert_dir!(dir2)\n\n    dir1_paths = relative_paths(dir1)\n    dir2_paths = relative_paths(dir2)\n\n    only1_paths = dir1_paths -- dir2_paths\n    only2_paths = dir2_paths -- dir1_paths\n    common_paths = dir1_paths -- only1_paths\n    common_files = Enum.reject(common_paths, &File.dir?/1)\n\n    diff =\n      Enum.flat_map(common_files, fn path ->\n        file1 = Path.join(dir1, path)\n        file2 = Path.join(dir2, path)\n\n        case compare_files(file1, file2) do\n          :eq -> []\n          {:diff, diff} -> [{path, diff}]\n        end\n      end)\n\n    {only1_paths, only2_paths, diff}\n  end"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 623,
+    "height": 852,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
