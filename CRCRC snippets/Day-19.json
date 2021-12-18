@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "id": "b889457b-8282-4473-a5e6-f021caa79432",
+    "created_at": "2021-12-15T16:37:25.649Z",
+    "name": "Day-19"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "a4018e33-35c5-4e97-a7a9-514f2259254d",
+        "tabSize": 4,
+        "language": "typescript",
+        "value": "\n    setGlobalState(state: Record<string, any> = {}) {\n      if (state === globalState) {\n        console.warn('state has not changed！');\n        return false;\n      }\n\n      const changeKeys: string[] = [];\n      const prevGlobalState = cloneDeep(globalState);\n      globalState = cloneDeep(\n        Object.keys(state).reduce((_globalState, changeKey) => {\n          if (isMaster || _globalState.hasOwnProperty(changeKey)) {\n            changeKeys.push(changeKey);\n            return Object.assign(_globalState, { [changeKey]: state[changeKey] });\n          }\n          console.warn(`'${changeKey}' not declared when init state！`);\n          return _globalState;\n        }, globalState),\n      );\n      if (changeKeys.length === 0) {\n        console.warn('state has not changed！');\n        return false;\n      }\n      emitGlobal(globalState, prevGlobalState);\n      return true;\n    },"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 854,
+    "height": 772,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
