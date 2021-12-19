@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "id": "16c43c10-8378-4608-aa18-63725b9b203f",
+    "created_at": "2021-12-19T14:04:26.731Z",
+    "name": "Day-22"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "a7a0c02d-781b-4d5d-8d5d-04f6134d8c4f",
+        "tabSize": 4,
+        "language": "erlang",
+        "value": "% For some odd reason, Erlang doesn't have this builtin:\npow(X, Y) when Y < 0 ->\n    1/pow(X, -Y);\npow(X, Y) when is_integer(Y) ->\n    pow_recursive(X, Y, 1).\n\npow_recursive(_, 0, Result) ->\n    Result;\npow_recursive(X, Y, Product) ->\n    NextProduct = case Y rem 2 of\n             0 -> Product;\n             1 -> X * Product\n         end,\n    pow_recursive(X * X, Y div 2, NextProduct)."
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 604,
+    "height": 392,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
