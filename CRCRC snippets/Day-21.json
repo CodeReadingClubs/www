@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "id": "0371eaf5-c6cf-4dc4-92de-3a58f17a6e81",
+    "created_at": "2021-12-19T13:46:44.934Z",
+    "name": "Day-21"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "01df854c-bdd3-4b0e-a456-b73513466380",
+        "tabSize": 4,
+        "language": "c",
+        "value": "set(REAKTORO_USE_autodiff      \"\" CACHE PATH \"Specify in case a specific autodiff library should be used.\")\nset(REAKTORO_USE_Catch2        \"\" CACHE PATH \"Specify in case a specific Catch2 library should be used.\")\nset(REAKTORO_USE_Eigen3        \"\" CACHE PATH \"Specify in case a specific Eigen library should be used.\")\nset(REAKTORO_USE_nlohmann_json \"\" CACHE PATH \"Specify in case a specific nlohmann-json library should be used.\")\nset(REAKTORO_USE_Optima        \"\" CACHE PATH \"Specify in case a specific Optima library should be used.\")\nset(REAKTORO_USE_phreeqc4rkt   \"\" CACHE PATH \"Specify in case a specific Phreeqc library should be used.\")\nset(REAKTORO_USE_pybind11      \"\" CACHE PATH \"Specify in case a specific pybind11 library should be used.\")\nset(REAKTORO_USE_ThermoFun     \"\" CACHE PATH \"Specify in case a specific ThermoFun library should be used.\")\nset(REAKTORO_USE_yaml-cpp      \"\" CACHE PATH \"Specify in case a specific yaml-cpp library should be used.\")\n\nfunction(ReaktoroFindPackage package)\n    # ARGV0: package name (required)\n    # ARGV1: optional package version (optional)\n    if(DEFINED REAKTORO_USE_${ARGV0} AND NOT REAKTORO_USE_${ARGV0} STREQUAL \"\")\n        find_package(${ARGV0} ${ARGV1} REQUIRED EXACT QUIET PATHS ${REAKTORO_USE_${ARGV0}} NO_DEFAULT_PATH)\n    else()\n        find_package(${ARGV0} ${ARGV1} REQUIRED QUIET)\n    endif()\n    if(${ARGV0}_FOUND)\n        message(STATUS \"Found ${ARGV0}: ${${ARGV0}_DIR} (found version \\\"${${ARGV0}_VERSION}\\\")\")\n    endif()\n    set(${ARGV0}_FOUND ${${ARGV0}_FOUND} PARENT_SCOPE)  # export to parent (e.g., Eigen3_FOUND)\n    set(${ARGV0}_DIR ${${ARGV0}_DIR} PARENT_SCOPE)  # export to parent (e.g., Eigen3_DIR)\nendfunction()"
+      }
+    ],
+    "sizes": [
+      35.25682945756712,
+      64.74317054243288
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 1143,
+    "height": 792,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
