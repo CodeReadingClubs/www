@@ -2,11 +2,11 @@
 {
   "type": "blog",
   "author": "Felienne Hermans",
-  "title": "Code Reading Club Reading Countdown - 22",
-  "description": "Code Reading Club Reading Countdown - 22",
-  "image": "images/articles/CRCRC-22.png",
+  "title": "Code Reading Club Reading Countdown - 24",
+  "description": "Code Reading Club Reading Countdown - 24",
+  "image": "images/articles/CRCRC-24.png",
   "draft": false,
-  "published": "2021-12-22",
+  "published": "2021-12-24",
 }
 
 
@@ -14,13 +14,13 @@
 
 
 
-## Countdown - Snippet 22
+## Countdown - Snippet 24
 
-Today, a snippet in Erlang submitted by @_eddieantonio (also one of our top code readers!)
+Today, a snippet in LOGO!
 
 **Snippet**
 
-![CRCRC-22](/images/articles/CRCRC-22.png)
+![CRCRC-24](/images/articles/CRCRC-24.png)
 
 
 ```python
