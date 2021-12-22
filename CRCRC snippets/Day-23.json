@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "id": "942bed8e-a74e-493c-8f00-f20b40c7e0f5",
+    "created_at": "2021-12-22T06:50:12.930Z",
+    "name": "Day-23"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "7f451bb4-348a-4d71-957f-b8afd8a6b5e1",
+        "tabSize": 4,
+        "language": "elm",
+        "value": "update : Nav.Key -> Msg -> Model -> ( Model, Cmd Msg )\nupdate key msg model =\n    case msg of\n        EditRoomId roomIdString ->\n            ( { model | roomIdString = roomIdString }, Cmd.none )\n\n        JoinExistingRoom ->\n            case RoomId.fromString model.roomIdString of\n                Err err ->\n                    ( { model | submission = Failure err }, Cmd.none )\n\n                Ok roomId ->\n                    ( { model | submission = Loading }\n                    , sendFromHome (FindRoom roomId)\n                    )\n\n        CreateNewRoom ->\n            ( model, Route.push key Route.Create )"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 718,
+    "height": 472,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": false,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
