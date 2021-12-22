@@ -1,0 +1,43 @@
+{
+  "tab": {
+    "id": "3d675feb-e13b-461d-97ff-135f74a9004b",
+    "created_at": "2021-12-22T07:25:20.472Z",
+    "name": "Untitled Project"
+  },
+  "page": {
+    "editors": [
+      {
+        "id": "1e95a67c-3b89-4d1a-974b-de153b740403",
+        "tabSize": 4,
+        "language": "logo",
+        "value": "clearscreen\nsetcolor pick [green]\nrt 90\n\nTO sideleft :length :width\nsidewithball :length\nlt 135\nfd :width\nEND\n\nTO sideright :width :length \nfd :width\nlt 135\nsidewithball :length\nEND\n\nTO square :size\n  repeat 4 [fd :size rt 90]\nEND\n\nTO ball\nsetcolor pick [ red orange yellow grey blue violet gold ]\nrepeat 10 [square 15 rt 36]\nsetcolor pick [green]\nEND\n\nTO sidewithball :length\nfd :length/2\nball\nfd :length/2\nEND\n\nsideright 200 200\nrt 135\nsideright 100 150\nrt 135\nsideright 80 120\n\nlt 90\nball\n\nsideleft 120 80\nrt 135\nsideleft 150 100\nrt 135\nsideleft 200 100\n\nsetcolor pick [brown]\nsquare 100"
+      }
+    ],
+    "sizes": [
+      40,
+      60
+    ],
+    "orientation": "landscape",
+    "previousOrientation": null
+  },
+  "settings": {
+    "width": 684,
+    "height": 1232,
+    "showHeader": true,
+    "showTitle": true,
+    "showShadow": true,
+    "showMenu": true,
+    "showColorMenu": true,
+    "showLineNumbers": true,
+    "background": "candy",
+    "backgroundPadding": 16,
+    "themeType": "light",
+    "themeOpacity": 1,
+    "themeName": "github-light",
+    "themeBackground": "rgba(255,255,255,1)",
+    "borderRadius": 12,
+    "fontSize": 16,
+    "lineHeight": 20,
+    "padding": 16
+  }
+}
