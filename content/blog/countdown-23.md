@@ -20,6 +20,7 @@ Today, a snippet in Elm submitted by CRC organizer Dan Fishgold!
 
 ![CRCRC-23](/images/articles/CRCRC-23.png)
 
+**Snippet in text**
 
 ```elm
 update : Nav.Key -> Msg -> Model -> ( Model, Cmd Msg )
