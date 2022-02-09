@@ -1,7 +1,7 @@
 # Code Reading Club information site
 
-[Published site](https://code-reading.org)
-[Code of conduct](https://code-reading.org/conduct)
+[Published site](https://codereading.club)
+[Code of conduct](https://codereading.club/conduct)
 
 ## Adding or editing content
 

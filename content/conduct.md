@@ -39,7 +39,7 @@ As a facilitator it's important that you not only follow your code of conduct, b
 
 ## Talk to us
 
-### hello@code-reading.org
+### hello@codereading.club
 
 If you experience any behaviours or atmosphere in our groups that feels contrary to these values, please let us know. We want everyone to feel safe, equal and welcome.
 

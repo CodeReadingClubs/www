@@ -32,4 +32,4 @@ To keep it simple, we may use enable publicly accessible links to share these to
 
 If you have any questions or concerns about privacy or would like to talk to us about how we use and store your information, please get in touch.
 
-hello@code-reading.org
+hello@codereading.club
