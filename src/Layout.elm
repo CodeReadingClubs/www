@@ -114,6 +114,17 @@ footer =
             ]
             [ iconLink Pages.images.twitter "Twitter" "http://www.twitter.com/CodeReadingClub"
             ]
+        , Element.paragraph
+            [ Element.centerX
+            , Font.center
+            , Element.paddingXY 0 10
+            ]
+            [ Element.text "This site is powered by "
+            , Element.link [] { url = "https://netlify.com", label = Element.text "Netlify" }
+            , Element.text ". Its source is available on "
+            , Element.link [] { url = "https://github.com/CodeReadingClubs/www", label = Element.text "GitHub" }
+            , Element.text "."
+            ]
         ]
 
 
