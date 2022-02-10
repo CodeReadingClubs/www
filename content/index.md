@@ -25,13 +25,13 @@ Want to start a club, but not sure how it works? Don't have enough people in you
 
 - Open Code Reading Club: 8 February 2022 19:00 to 20:30 (CET)
 
-#### [Get in touch](mailto:hello@code-reading.org) - [Join our mailing list](http://eepurl.com/hzYTQv) - [Sign up for a session](https://www.eventbrite.com/o/38242002183)
+#### [Get in touch](mailto:hello@codereading.club) - [Join our mailing list](http://eepurl.com/hzYTQv) - [Sign up for a session](https://www.eventbrite.com/o/38242002183)
 
 You can find the [exercises](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md) in our resources github repo.
 
-You can use the [pdf from github code tool](https://pdf.code-reading.org) to generate and download a pdf for your club members to print out if they want to work with code on paper.
+You can use the [pdf from github code tool](https://pdf.codereading.club) to generate and download a pdf for your club members to print out if they want to work with code on paper.
 
-You can use the [annotation app](https://annotate.code-reading.org) if your club members want to annotate on screen.
+You can use the [annotation app](https://annotate.codereading.club) if your club members want to annotate on screen.
 
 You can run your club in whatever way you want, but we recommend to meet for 1 hour 15 mins every other week.
 
@@ -49,7 +49,7 @@ We have seen different types of clubs: you might be interested in code form your
 
 ## Get in touch!
 
-If you decide to start a club, please get in touch. We'd love to hear about it, or even sit in on a session with you. Please contact [hello@code-reading.org](mailto:hello@code-reading.org) if you want to get involved, or have any suggestions.
+If you decide to start a club, please get in touch. We'd love to hear about it, or even sit in on a session with you. Please contact [hello@codereading.club](mailto:hello@codereading.club) if you want to get involved, or have any suggestions.
 
 The initial inspiration for the clubs was [How to teach programming (and other things)?](https://www.youtube.com/watch?v=g1ib43q3uXQ) by [Felienne Hermans](https://www.felienne.com/).
 

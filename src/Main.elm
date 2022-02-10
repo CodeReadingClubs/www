@@ -309,7 +309,7 @@ head metadata =
 
 canonicalSiteUrl : String
 canonicalSiteUrl =
-    "https://code-reading.org"
+    "https://codereading.club"
 
 
 siteTagline : String
