@@ -23,7 +23,7 @@ We tried them, we loved them, we shared them with other developers
 
 Want to start a club, but not sure how it works? Don't have enough people in your workplace to join you? We sometimes run sessions about how to start a club or invite new people to join our public clubs. We usually hold an open public club on the first Tuesday of every month.
 
-- Open Code Reading Club: 5 July 2022 16:00 to 17:30 (CEST)
+- Open Code Reading Club: 2 August 2022 18:00 to 19:30 (CEST)
 
 #### [Get in touch](mailto:hello@codereading.club) - [Join our mailing list](http://eepurl.com/hzYTQv) - [Sign up for a session](https://www.eventbrite.com/o/38242002183)
 
