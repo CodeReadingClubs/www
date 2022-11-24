@@ -4,3 +4,4 @@ dist/
 .cache/
 gen/
 .DS_Store
+.elm-pages
