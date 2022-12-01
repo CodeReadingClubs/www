@@ -1,28 +1,23 @@
 ---
 {
-  "type": "blog",
-  "author": "Felienne Hermans",
-  "title": "Code Reading Club Reading Countdown - 20",
-  "description": "Code Reading Club Reading Countdown - 20",
-  "image": "images/articles/CRCRC-20.png",
-  "draft": false,
-  "published": "2021-12-20",
+  'type': 'blog',
+  'author': 'Felienne Hermans',
+  'title': 'Code Reading Club Reading Countdown - 20',
+  'description': 'Code Reading Club Reading Countdown - 20',
+  'draft': true,
+  'published': '2021-12-20',
 }
 ---
 
-
-
 ## Countdown - Snippet 20
-
-Today, a snippet in Dijkstra's GCL!
 
 **Snippet**
 
 ![CRCRC-20](/images/articles/CRCRC-20.png)
 
-**Question**
+**Snippet in code**
 
-What sorting algorithm is that?
+**Question**
 
 ## Submission
 
