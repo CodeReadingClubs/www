@@ -1,20 +1,15 @@
 ---
 {
-  "type": "blog",
-  "author": "Felienne Hermans",
-  "title": "Code Reading Club Reading Countdown - 13",
-  "description": "Code Reading Club Reading Countdown - 13",
-  "image": "images/articles/CRCRC-13.png",
-  "draft": false,
-  "published": "2021-12-13",
+  'type': 'blog',
+  'author': 'Felienne Hermans',
+  'title': 'Code Reading Club Reading Countdown - 13',
+  'description': 'Code Reading Club Reading Countdown - 13',
+  'draft': true,
+  'published': '2021-12-13',
 }
 ---
 
-
-
 ## Countdown - Snippet 13
-
-Something special today... Hedy code ([level 10](https://www.hedycode.com/hedy/10)).
 
 **Snippet**
 
@@ -22,17 +17,7 @@ Something special today... Hedy code ([level 10](https://www.hedycode.com/hedy/1
 
 **Snippet in text**
 
-```python
-sharks is baby, mommy, daddy, grandma, grandpa
-for shark in sharks
-    repeat 3 times
-        print shark 'tututututudu'
-    print shark
-```
-
 **Question**
-
-What syntactic complexity typically present in languages is missing here?
 
 ## Submission
 
